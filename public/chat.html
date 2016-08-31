@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chat</title>
+    <link rel="stylesheet" href="css/style-chat.css">
+
+
+</head>
+<body>
+
+<div>
+    <div class="login-screen">
+        <!--Chat Title-->
+        <div class="app-title">
+            <h1 class="chat-group-title"></h1>
+        </div>
+
+        <div class="message-display ">
+            <!--message gets displayed here-->
+        </div>
+
+
+
+    </div>
+</div>
+
+
+<div class="footer">
+    <form id="form">
+
+        <input  class="row-footer" type="text" name="message" width="100"/>
+        <input  class="row-footer-send" type="submit" value="Send"  />
+    </form>
+</div>
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/socket.io-1.4.8.js"></script>
+<script src="js/moment.js"></script>
+<script src="js/QueryParams.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
