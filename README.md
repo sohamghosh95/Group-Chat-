@@ -1,1 +1,2 @@
-# Group-Chat-
+# Group Chat Application
+
